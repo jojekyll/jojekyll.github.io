@@ -151,6 +151,18 @@ https://talk.jekyllrb.com/t/loop-through-data-file-with-uniq-array-filter/425/3
 1. Make sure Ruby 2.x is installed.
 2. `gem install jekyll` if `jekyll` is not already installed.
 
+## Building production for github pages
+
+JoJekyll use unsupported plugins for github pages, to serve here you need to push to github only the static files associated to your bloocks project that can be finded in the docs/_site directory.
+
+On first run:
+
+- `jekyll build`
+
+This will generate a static site with all the urls overwritten from the url: option in your config.yml. 
+
+Then copy all files in _site folder to your github repository folder and push it
+
 ## Front matter variables
 
 ---
