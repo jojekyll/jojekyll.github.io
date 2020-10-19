@@ -528,22 +528,181 @@
                         <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=https://jojekyll.github.io/modaltests/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
                     </div>
                 </div>
-                <template class="modalup"> <div class="hero-head"><div class="container "> <div class="is-size-4-mobile mt-3 pt-3 shake shake-constant" style=" font-size: 7em; color: rgba(245, 245, 245, 0.1); z-index:0; position: absolute; top: 0.2em; left: -2em; "> <i class="far fa-grimace fa-8x "></i> </div> </div><div class="container has-text-right"> <a class="closemodalup has-text-light"><i class="far fa-3x fa-times-circle"></i></a> </div> </div> <div class="hero-body"><div class="container has-text-centered"> <div class="columns is-vcentered"> <div class="column "> <div class="cssans is-size-3 is-size-4-touch bd-focus-mobile"> <div class="cssans__accessible"><h3>JoJekyll</h3></div> <div class="cssans__word"> <b class="cssans:J"></b> <b class="cssans:o"></b> <b class="cssans:J"></b> <b class="cssans:e"></b> <b class="cssans:k"></b> <b class="cssans:y"></b> <b class="cssans:l"></b> <b class="cssans:l"></b> </div> </div> <p class="subtitle is-3 is-family-secondary bd-focus-css3"> A badass Jekyll Theme with <span class="shake-slow shake-constant has-text-primary">SUPERPOWERS!</span> </p> </div><div class="column "> <img src="https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp" srcset="https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_39,e_grayscale,w_320/https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp 320w, https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_39,e_grayscale,w_640/https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp 640w, https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_39,e_grayscale,w_960/https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp 960w, https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_39,e_grayscale,w_1280/https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp 1280w, https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_39,e_grayscale,w_1600/https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp 1600w" sizes="(min-width: 50rem) 50rem, 90vw" alt="sheep!" loading="lazy" crossorigin="anonymous" /> <p class="subtitle is-3 "> A crazy subtitle </p> </div></div></div> </div><!--<button class="modal-close is-large closemodalup" aria-label="close"></button>--> </template>
-
                 <div class="intro-column intro-video">
                     <nav class="intro-buttons"> <a class="button is-purple is-large modalup"> <span> <strong>BasicLightBox from template</strong> </span> </a> </nav>
                     <!-- -->
-                    <!---->                    <script>
-                        document.querySelector('a.modalup').onclick = () => {
-                                const instance = basicLightbox.create(document.querySelector('template.modalup'), {
-                                    className: "hero is-dark is-bold is-fullheight"
-                                }); //instance.element().querySelector('button.closemodalup').onclick = instance.close; instance.element().querySelector('a.closemodalup').onclick = instance.close; instance.show(); };
-                    </script> <img src="https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_auto,w_800/https://res.cloudinary.com/antoniotrento/image/upload/images/eggs.jpg" srcset="https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_auto,w_320/https://res.cloudinary.com/antoniotrento/image/upload/images/eggs.jpg 320w, https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_auto,w_640/https://res.cloudinary.com/antoniotrento/image/upload/images/eggs.jpg 640w, https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_auto,w_960/https://res.cloudinary.com/antoniotrento/image/upload/images/eggs.jpg 960w, https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_auto,w_1280/https://res.cloudinary.com/antoniotrento/image/upload/images/eggs.jpg 1280w, https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_auto,w_1600/https://res.cloudinary.com/antoniotrento/image/upload/images/eggs.jpg 1600w"
-                        sizes="(min-width: 50rem) 50rem, 90vw" alt="eggs!" loading="lazy" width="6720" height="4480" crossorigin="anonymous" />
-                    <!-- TESTING basiclightbox.electerious.com e VEX MODALS https://github.com/HubSpot/vex -->
-                    <nav class="intro-buttons"> <a class="button is-primary is-large first"> <span> <strong>With close button</strong> </span> </a> <a class="button is-light is-large" href="https://jojekyll.github.io/documentation"> <span> <span>View</span> <strong>docs</strong> </span> </a>                        </nav>
-                    <nav class="intro-buttons"> <a class="button is-primary is-large classNames"> <span> <strong>BasicLightBox</strong> </span> </a> <a class="button is-light is-large bloocks"> <span> <strong>Test Bloocks</strong> </span> </a> </nav>
-                    <script>
+                    <!---->          <nav class="intro-buttons">
+            <a class="button is-purple is-large modalup" >
+              <span>
+                <strong>BasicLightBox from template</strong>
+
+              </span>
+            </a>
+
+            </nav>
+
+<!--
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---->
+<template class="modalup">
+
+
+  <div class="hero-head"><div class="container ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="is-size-4-mobile mt-3 pt-3 shake shake-constant" style=" font-size: 7em; color: rgba(245, 245, 245, 0.1); z-index:0; position: absolute;
+
+            top: 0.2em;
+
+
+        left: -2em;
+    ">
+    <i class="far fa-grimace fa-8x "></i>
+</div>
+    </div><div class="container has-text-right">
+      <a class="closemodalup has-text-light"><i class="far fa-3x fa-times-circle"></i></a>
+    </div>
+
+  </div>
+
+  <div class="hero-body"><div class="container has-text-centered">
+      <div class="columns  is-vcentered">
+        <div class="column ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cssans is-size-3 is-size-4-touch bd-focus-mobile">
+    <div class="cssans__accessible"><h3>JoJekyll</h3></div>
+
+
+        <div class="cssans__word">
+
+                <b class="cssans:J"></b>
+
+                <b class="cssans:o"></b>
+
+                <b class="cssans:J"></b>
+
+                <b class="cssans:e"></b>
+
+                <b class="cssans:k"></b>
+
+                <b class="cssans:y"></b>
+
+                <b class="cssans:l"></b>
+
+                <b class="cssans:l"></b>
+
+        </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="subtitle is-3 is-family-secondary bd-focus-css3">
+    A badass Jekyll Theme with <span class="shake-slow shake-constant has-text-primary">SUPERPOWERS!</span>
+</p>
+
+
+
+
+</div><div class="column ">
+
+<img src="https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp" srcset="https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_39,e_grayscale,w_320/https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp 320w,
+https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_39,e_grayscale,w_640/https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp 640w,
+https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_39,e_grayscale,w_960/https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp 960w,
+https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_39,e_grayscale,w_1280/https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp 1280w,
+https://res.cloudinary.com/antoniotrento/image/fetch/c_limit,f_auto,q_39,e_grayscale,w_1600/https://res.cloudinary.com/antoniotrento/image/upload/images/sheep.webp 1600w" sizes="(min-width: 50rem) 50rem, 90vw"   alt="sheep!" loading="lazy"  crossorigin="anonymous" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="subtitle is-3 ">
+    A crazy subtitle
+</p>
+
+
+
+
+
+
+            </div></div></div>
+  </div><!--<button class="modal-close is-large closemodalup" aria-label="close"></button>-->
+</template>
+
+  <script>
+    document.querySelector('a.modalup').onclick = () => {
+      const instance = basicLightbox.create(
+      document.querySelector('template.modalup'), {
+        className: "hero is-dark is-bold is-fullheight"
+      });
+      //instance.element().querySelector('button.closemodalup').onclick = instance.close;
+      instance.element().querySelector('a.closemodalup').onclick = instance.close;
+      instance.show();
+    };
+  </script>
                         document.querySelector("a.first").onclick = () => {
                             const instance = basicLightbox.create(` <div class="hero-body"> <div class="container has-text-centered"> <div class="columns is-vcentered"> <div class="column is-half"> <div class=" cssans is-size-3 is-size-4-touch cssans--center"> <div class="cssans cssans--center"><div class="cssans__accessible">CSSans Pro</div> <div class="cssans__word"><b class="cssans:C"></b><b class="cssans:S"></b><b class="cssans:S"></b><b class="cssans:a"></b><b class="cssans:n"></b><b class="cssans:s"></b></div> <div class="cssans__word"><b class="cssans:P"></b><b class="cssans:r"></b><b class="cssans:o"></b></div></div> </div> <nav class="intro-buttons"> <a class="button is-primary is-large" > <span> <strong>BasicLightBox</strong> </span> </a> <a class="button is-light is-large" > <span> <strong>Test Bloocks</strong> </span> </a> </nav> </div> <div style="overflow:hidden; position:relative;" class="column"> <img src="/images/dog.png"> </div> </div> </div> </div> <div class="hero-foot pb-2"> <div class="container has-text-centered"> <span class="icon arrowScrollDown"><svg class="svg-inline--fa fa-chevron-down fa-w-14 fa-3x" aria-hidden="true" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <i class="fas fa-3x fa-chevron-down"></i> --></span> </div> </div> <a style="position:absolute;top:1.8rem;right:1.8rem;width:2em;height:2em;" class="close has-text-light"><i class="far fa-3x fa-times-circle"></i></a> `, {
                                 className: "hero is-purple"
