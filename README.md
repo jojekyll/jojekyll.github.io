@@ -99,6 +99,7 @@ https://talk.jekyllrb.com/t/loop-through-data-file-with-uniq-array-filter/425/3
 - maybe https://plyr.io/
 - maybe https://cdn.polyfill.io/v3/
 - https://shopify.github.io/draggable/
+- https://mootools.net/
 
 ### CSS
 
@@ -125,6 +126,8 @@ https://talk.jekyllrb.com/t/loop-through-data-file-with-uniq-array-filter/425/3
   - https://codepen.io/alexandr-kazakov/pen/QOOwQo
   - https://github.com/voxpelli/sass-color-helpers
 - https://github.com/at-import/jacket
+- https://wicky.nillia.ms/enquire.js/
+- https://davidwalsh.name/sheen-effect
 
 #### Critical CSS in jekyll
 
@@ -172,7 +175,14 @@ https://talk.jekyllrb.com/t/loop-through-data-file-with-uniq-array-filter/425/3
 
 ## Building production for github pages
 
-JoJekyll use unsupported plugins for github pages, to serve here you need to push to github only the static files associated to your bloocks project that can be finded in the docs/_site directory. http://simpleprimate.com/blog/basic-commands
+JoJekyll use unsupported plugins for github pages, to serve here you need to push to github only the static files associated to your bloocks project that can be finded in the docs/_site directory. 
+
+- [Build the source on master and the _site folder on gh-page branchs](https://stackoverflow.com/questions/17835937/how-do-i-push-jekyll-site-directory-to-gh-pages-branch-and-leave-the-source-in) -- [Other way](https://gist.github.com/amitkaps/646be08862050b283b52681b20cc28ba)
+- https://github.com/marketplace/actions/jekyll-actions
+- https://jekyllrb.com/docs/github-pages/ -- https://jekyllrb.com/docs/continuous-integration/github-actions/
+- https://www.thinkful.com/learn/a-guide-to-using-github-pages/
+- [Build commands and basic commands](http://simpleprimate.com/blog/basic-commands)
+
 
 On first run:
 
@@ -485,7 +495,7 @@ In your main shell session where you develop, if you change anything in `docs/` 
 - [X] immagine in basso a destra o a sinistra -- https://www.w3schools.com/css/css_positioning.asp **esempio nel footer del blooks hero z-index non a effetto limmagine resta sopra il testo in mobile**  herofoot='<div class="is-pulled-right"><img style="z-index:0; position: absolute; bottom: 0px; right: 0px;" src="/images/face.png"></div>'
 - [ ] bloocks image, creare logica per integrazione con alt e title e responsive breackpoint e servizi cloud come clodinary e images.weserv.nl -- plugin https://github.com/dojekyll/jekyll-cloudinary  -- b524a6e60a5313acc4d299471a2a3902
 - [ ] integrare un layout presentazioni con https://github.com/katydecorah/unconventional/ e https://lndonio.github.io/lndonio.github.io
-- [ ] integrare font dinamici da config.yml http://kyleamathews.github.io/typography.js/
+- [ ] integrare font dinamici da config.yml http://kyleamathews.github.io/typography.js/ -- https://github.com/jekyll/jekyll/pull/6792
 - [ ] Commenti
   - https://ichi.pro/it/post/255419457020795
   - https://medium.com/@jdvp/using-google-forms-for-jekyll-comments-e84d7a01237b
@@ -499,18 +509,28 @@ In your main shell session where you develop, if you change anything in `docs/` 
     - https://talk.jekyllrb.com/t/leverage-browser-caching/138
   - https://github.com/envygeeks/jekyll-assets
     - https://github.com/rails/sprockets
+  - https://www.digitalocean.com/community/tutorials/html-preload-prefetch
 - [ ] Gzip compression
   - https://kleopetrov.me/2015/07/03/road-to-perfection/
   - https://webmasters.stackexchange.com/questions/56561/is-gzip-compression-available-for-github-pages/56572
   - https://github.com/philnash/jekyll-zopfli
     - https://github.com/philnash/jekyll-gzip
 - [ ] Minify scripts and html
+  - https://github.com/verlok/vanilla-lazyload
   - https://kleopetrov.me/2015/07/03/road-to-perfection/
   - https://github.com/search?q=Minify+jekyll
   - https://github.com/mattg/jekyll-uglify-filter
   - https://github.com/envygeeks/jekyll-assets/
   - http://www.jekyll-plugins.com/plugins/jekyll-press
   - https://jch.penibelst.de/
-  - [ ] Critical path CSS
+  - https://wicky.nillia.ms/enquire.js/
+  - https://www.lullabot.com/articles/importing-css-breakpoints-into-javascript
+  - https://github.com/nickbergquist/node-express-sass-workflow
+  - https://modernizr.com/
+- [ ] Critical path CSS
     - https://stackoverflow.com/questions/29039499/jekyll-critical-css-html-minify-in-one-gulp-task
     - https://github.com/addyosmani/critical
+    - https://wicky.nillia.ms/enquire.js/
+- [ ] Preloader
+  - https://poiemaweb.com/snippet-preloader
+  - 
