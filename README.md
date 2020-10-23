@@ -89,6 +89,7 @@ https://stackoverflow.com/questions/55250421/jekyll-liquid-passing-an-array-into
   - https://ultimatecourses.com/blog/cache-busting-jekyll-github-pages#cache-busting-assets
 - http://davidensinger.com/2014/12/critical-path-css-in-jekyll-with-penthouse-and-loadcss/
   - https://github.com/filamentgroup/loadCSS
+- https://alternativeto.net/software/codekit/
 
 ### Sass to json variables and viceversa
 
