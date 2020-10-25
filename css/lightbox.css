@@ -3,7 +3,6 @@
     position: relative; 
     top: 50%;
     left: 50%;
-    -ms-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     max-width: 100%;
@@ -33,7 +32,6 @@
     position: relative; 
     top: 50%;
     left: 50%;
-    -ms-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     max-width: 900px;
@@ -64,8 +62,6 @@
 #lightbox #close {height: 50px; width: 50px; position: fixed; cursor: pointer; text-decoration: none; z-index: 99; right: 0; top: 0;}
 #lightbox #close:after, #lightbox #close:before {position: absolute; margin-top: 22px; margin-left: 14px; content: ""; height: 3px; background: white; width: 23px;
 -webkit-transform-origin: 50% 50%;
--moz-transform-origin: 50% 50%;
--o-transform-origin: 50% 50%;
 transform-origin: 50% 50%;
 /* Safari */
 -webkit-transform: rotate(-45deg);

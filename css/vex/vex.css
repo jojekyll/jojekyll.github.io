@@ -39,8 +39,8 @@
     transform: rotate(359deg); } }
 
 .vex, .vex *, .vex *:before, .vex *:after {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .vex {
   position: fixed;
@@ -101,7 +101,8 @@
 .vex-loading-spinner {
   -webkit-animation: vex-rotation .7s linear infinite;
   animation: vex-rotation .7s linear infinite;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
   position: fixed;
   z-index: 1112;
   margin: auto;
