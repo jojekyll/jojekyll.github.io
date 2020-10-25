@@ -104,6 +104,7 @@ https://talk.jekyllrb.com/t/loop-through-data-file-with-uniq-array-filter/425/3
 
 - https://animejs.com/
 - https://basicscroll.electerious.com/
+- https://github.com/dojekyll/baguetteBox.js
 - maybe https://feimosi.github.io/baguetteBox.js/ -- https://photoswipe.com
 - maybe https://plyr.io/
 - maybe https://cdn.polyfill.io/v3/
@@ -412,7 +413,7 @@ In your main shell session where you develop, if you change anything in `docs/` 
 # TO DO CODING
 
 - [ ] Contact form
-  - https://formvalidation.io/
+  - **https://formvalidation.io/**
   - https://clearout.io/blog/2020/07/28/15-google-sheets-add-ons-a-complete-package-for-email-marketing/
     - https://emailstudio.pro/
     - https://sites.google.com/site/gsmmailmerge/
@@ -447,7 +448,7 @@ In your main shell session where you develop, if you change anything in `docs/` 
   - https://dev.to/skatkov/jamstack-progressive-mailchimp-sign-up-form-with-netlify-13m3
   - https://github.com/search?p=1&q=form&type=Repositories
 
-- [X] Integrare bene jekyll e la possibilità di usare i plugin https://jekyllrb.com/docs/plugins/installation/
+- [X] Integrare bene jekyll e la possibilità di usare i plugin https://jekyllrb.com/docs/plugins/installation/ (Risolto tramite il deploy del sito direttamente come html statico della cartella _site)
 - [...] integrare gli snippet di codice https://jekyllcodex.org/without-plugins/
   - [ ] Creare una logica dinamica per il social sharing buttons boolck
   - [ ] Creare una logica dinamica per il follow buttons boolck  
@@ -487,7 +488,7 @@ In your main shell session where you develop, if you change anything in `docs/` 
   - [ ] Webshop
 - [ ] Netlify forms e mailchimp progressive https://dev.to/skatkov/jamstack-progressive-mailchimp-sign-up-form-with-netlify-13m3 https://gist.github.com/skatkov/b524a6e60a5313acc4d299471a2a3902
 - [ ] Google forms bloocks integration
-- [X] implementare un bloocks hero per i modal in electerious che non ha il primo div con class hero ma la class hero va aggiunta alle istruzioni java del modal quando viene richiamato popup modal ligthbox per marketing
+- [X] **Usato electerious con modalmonitor** implementare un bloocks hero per i modal in electerious che non ha il primo div con class hero ma la class hero va aggiunta alle istruzioni java del modal quando viene richiamato popup modal ligthbox per marketing
   - https://github.com/hubspot/vex
   - https://basiclightbox.electerious.com/
   - https://github.com/edenspiekermann/a11y-dialog
@@ -506,15 +507,15 @@ In your main shell session where you develop, if you change anything in `docs/` 
   - https://awesomeopensource.com/projects/modal
   
 - [X] per cssanspro creare script per parole loop in div https://learn.cloudcannon.com/jekyll/looping-in-liquid/ (utile per cssans pro e per generare variabili di bloocks)
-- sgv fluttuante in bloocks/hero 
+- [ ] sgv fluttuante in bloocks/hero 
 - json file per colori e dimensioni testo https://jekyllrb.com/docs/datafiles/ 
   - https://gist.github.com/rconnelly/2926104
   - https://mrcoles.com/inlining-json-jekyll-liquid-template/
-- ricreare il blook hero con gli switch case in modo da usare solo un  block hero sia per 1 colonna che per 2 o 3 colonne (fruttare un ciclo con i div per generare 1 2 o 3 colonne)
+- [ ] **ricreare il blook hero con la logica e il loop usato per il bloock bloocks/helpers/columnsloop** case in modo da usare solo un  block hero sia per 1 colonna che per 2 o 3 colonne (fruttare un ciclo con i div per generare 1 2 o 3 colonne)
 - [X] immagine in basso a destra o a sinistra -- https://www.w3schools.com/css/css_positioning.asp **esempio nel footer del blooks hero z-index non a effetto limmagine resta sopra il testo in mobile**  herofoot='<div class="is-pulled-right"><img style="z-index:0; position: absolute; bottom: 0px; right: 0px;" src="/images/face.png"></div>'
 - [ ] bloocks image, creare logica per integrazione con alt e title e responsive breackpoint e servizi cloud come clodinary e images.weserv.nl -- plugin https://github.com/dojekyll/jekyll-cloudinary  -- b524a6e60a5313acc4d299471a2a3902
 - [ ] integrare un layout presentazioni con https://github.com/katydecorah/unconventional/ e https://lndonio.github.io/lndonio.github.io
-- [ ] integrare font dinamici da config.yml http://kyleamathews.github.io/typography.js/ -- https://github.com/jekyll/jekyll/pull/6792
+- [ ] integrare font dinamici da config.yml https://www.rucksackcss.org/ --- http://kyleamathews.github.io/typography.js/ -- https://github.com/jekyll/jekyll/pull/6792
 - [ ] Commenti
   - https://ichi.pro/it/post/255419457020795
   - https://medium.com/@jdvp/using-google-forms-for-jekyll-comments-e84d7a01237b
@@ -536,8 +537,10 @@ In your main shell session where you develop, if you change anything in `docs/` 
     - https://github.com/philnash/jekyll-gzip
 - [ ] Minify scripts and html
   - [ ] Avoid @import google fonts from .sass file
-  - **[UNDERTAND HOW IT WORKS] https://www.rucksackcss.org/**
-  - https://github.com/verlok/vanilla-lazyload
+  - **[UNDERTAND HOW IT WORKS] https://www.rucksackcss.org/** 
+    - da usare per implementare in automatico la correzzione css per vari browser diversi (trovare il modi implementarlo nel file node build.js e riuscxire a sfruttarlo tramite i sass e non i css)
+    - are you wanting to input SCSS and output CSS (i.e. turn // comments into /* comments ... so .pipe(postcss([rucksack], {syntax: postScss})) is working for me ... I want to use cssnano in my project but I do not want all functionality.
+  - **https://github.com/verlok/vanilla-lazyload**
   - https://kleopetrov.me/2015/07/03/road-to-perfection/
   - https://github.com/search?q=Minify+jekyll
   - https://github.com/mattg/jekyll-uglify-filter
@@ -558,6 +561,7 @@ In your main shell session where you develop, if you change anything in `docs/` 
     - https://github.com/postcss/gulp-postcss
     - https://www.sitepoint.com/how-to-use-postcss-with-gulp/
     - https://fireflysemantics.medium.com/filtering-unused-css-selectors-with-postcss-3504002b7c82
+    - **Example gulp+postcss** https://github.com/emmmile/jasper2/blob/master/gulpfile.js
 - [ ] Critical path CSS
     - https://stackoverflow.com/questions/29039499/jekyll-critical-css-html-minify-in-one-gulp-task
     - https://github.com/addyosmani/critical
@@ -566,3 +570,14 @@ In your main shell session where you develop, if you change anything in `docs/` 
 - [ ] Preloader
   - https://poiemaweb.com/snippet-preloader
   - 
+
+- [ ] **Configure Jekyll picture tag** https://rbuchberger.github.io/jekyll_picture_tag/
+  - {% picture [preset] (image) [crop] [alternate images & crops] [attributes] %}
+    - https://imagemagick.org/script/command-line-options.php
+    - https://rbuchberger.github.io/jekyll_picture_tag/users/liquid_tag/examples.html
+  - {% picture test.jpg 3:2 mobile: test2.jpg 1:1 --alt Alternate Text %}
+
+- [ ] Gestire le animazioni tramite eventi in javascript
+  - https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationstart_event
+  - https://css-tricks.com/controlling-css-animations-transitions-javascript/
+  - https://github.com/ThrivingKings/animo

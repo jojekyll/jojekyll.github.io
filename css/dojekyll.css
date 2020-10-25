@@ -20058,6 +20058,7 @@ svg {
   margin-top: 3px;
 }
 
+/*! uncss:ignore start */
 .arrowScrollDown svg {
   -webkit-animation: arrowAnimation 1.5s infinite ease-out;
           animation: arrowAnimation 1.5s infinite ease-out;
@@ -20097,6 +20098,7 @@ svg {
   }
 }
 
+/*! uncss:ignore end */
 /*!
  * CSSans Pro v1.0.0 (https://cssans.pro/)
  * Copyright 2019 Codrin Pavel

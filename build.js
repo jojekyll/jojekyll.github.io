@@ -16,7 +16,7 @@ var jekyllUncss = function() {
 
     uncss(files, {
       raw: css,
-      ignore       : ['@import url("https://fonts.googleapis.com/css2?family=Anton&family=Source+Sans+Pro&display=swap");'],
+      ignore       : ['@import url("https://fonts.googleapis.com/css2?family=Anton&family=Source+Sans+Pro&display=swap");', '.arrowScrollDown'],
       ignoreSheets:[/\/css\//]
     }, function(err, output) {
       if (err) {
